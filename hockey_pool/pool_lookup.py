@@ -3,7 +3,6 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz
-from selenium import webdriver
 
 
 def is_wipo(url):
