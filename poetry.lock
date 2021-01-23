@@ -266,6 +266,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "nbimporter"
+version = "0.3.3"
+description = "Import IPython notebooks as modules"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "packaging"
 version = "20.8"
 description = "Core utilities for Python packages"
@@ -581,7 +589,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a338fe0a14c2704489d4be70bf5241fcb630a43daa07762dd02b1c50f0077dfe"
+content-hash = "797d70bff5f0b69bd73fa1f76df3fff7379e5ea234faa61f80778c5b77087ed7"
 
 [metadata.files]
 appdirs = [
@@ -708,6 +716,10 @@ more-itertools = [
 mypy-extensions = [
     {file = "mypy_extensions-0.4.3-py2.py3-none-any.whl", hash = "sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d"},
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
+]
+nbimporter = [
+    {file = "nbimporter-0.3.3-py3-none-any.whl", hash = "sha256:4eaf2a640b031c9eb65c73583217e06080bce23703ba2e46078b8fae3eb40e5d"},
+    {file = "nbimporter-0.3.3.tar.gz", hash = "sha256:0db3521177621fb5046776c89d09a6f34c335ae0a12ecbb6e027003819a63c13"},
 ]
 packaging = [
     {file = "packaging-20.8-py2.py3-none-any.whl", hash = "sha256:24e0da08660a87484d1602c30bb4902d74816b6985b93de36926f5bc95741858"},
