@@ -21,6 +21,7 @@ def site_login(url, username, password, idun, idpw, idbutton):
     :param idbutton: html id of the login form submission button
     :type idbutton: str
     """
+
     driver.get(url)
     driver.find_element_by_id(idun).send_keys(username)
     driver.find_element_by_id(idpw).send_keys(password)
