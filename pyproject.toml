@@ -13,6 +13,7 @@ selenium = "^3.141.0"
 ipykernel = "^5.4.3"
 requests = "^2.25.1"
 nbimporter = "^0.3.3"
+lxml = "^4.6.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
